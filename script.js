@@ -1,12 +1,12 @@
 // complete the given function
 
 function palindrome(str){
-	str = str.split(" ").join("")
-	str.toLowerCase()
+	newstr = str.split(" ").join("")
+	newstr.toLowerCase()
 	let i=0
-	let j=str.length
+	let j=newstr.length
 	while (i<=j) {
-		if(str[i]!=str[j]) return false
+		if(newstr[i]!=newstr[j]) return false
 		i++
 		j--
 	}
