@@ -7,6 +7,8 @@ function palindrome(str){
 	let j=str.length
 	while (i<=j) {
 		if(str[i]!=str[j]) return false
+		i++
+		j--
 	}
 	return true
 }
